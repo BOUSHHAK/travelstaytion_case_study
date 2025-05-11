@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(247, 247, 247);
+    font-family: 'Roboto';
+}
+
+.appContainer {
+    max-width: 61vh;
+    min-width: 600px;
+    height:auto;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin-left: 10px;
+}
+
+.welcomeContainer{ 
+    margin: 5px 20px 20px 0;
+}
+
+.logingSignup{
+    margin-top: 25px;
+}
+
+.loginLink{
+    color:  rgb(48, 185, 226);
+    text-decoration: none;
+}
+
+.signupLink {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(48, 185, 226);
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.UNwelcome {
+    color: rgb(48, 185, 226);
+
+}
+
+.logoutLink {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    float:right;
+}
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    min-width: 62vh;
+    max-width: 62vh;
+} 
+
+.moviesSum {
+    margin: 0 0 10px 10px;
+}
+.moviesContainer {
+    max-height: 85vh;
+    min-width: 50vh;
+    max-width: 50vh;
+    overflow-y: auto;
+}
+
+.movie {
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.movieHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.movieLikesHates{
+    display: flex;
+    gap: 5px;
+}
+.movielikeHateForm {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.likesSelectedSum {
+    color: green;
+}
+
+.hatesSelectedSum {
+    color: red;
+}
+
+.likehateButton {
+    background-color: rgb(247, 247, 247);
+    border: none;
+    cursor: pointer;
+    color:rgb(58, 209, 255);
+    font-size: large;
+    border-radius: 10px;
+}
+
+.movieUsername{
+    color:rgb(58, 209, 255);
+}
+
+.newMovieSortContainer{
+    margin-top: 20px;
+}
+
+.newMovie {
+    margin-bottom: 20px;
+}
+
+.newMovie a {
+    padding: 10px 10px;
+    background-color: rgb(1, 163, 36);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+
+.sort {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 90px;
+    padding: 0 5px 5px 5px;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+}
+  
+.sort p {
+   margin-bottom: 3px;
+}
+  
+.sort a {
+    text-decoration: none;
+    color:rgb(48, 185, 226);
+    border-top: 3px solid rgb(48, 25, 100);
+    margin: 5px 0;
+}
+  
+.sort a .checkbox {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 5px solid rgb(48, 185, 226);
+    background-color: rgb(211, 211, 211);
+    margin: 6px 0px -5px 3px;
+}
+    
+.sort a .checkbox.checked {
+    background-color: rgb(1, 163, 36);
+}
+  
+.selected {
+    background-color: rgb(48, 185, 226);
+    color: white;
+}
